@@ -1,0 +1,4 @@
+packageName: quay
+channels:
+- name: alpha
+  currentCSV: quay.v0.0.1
