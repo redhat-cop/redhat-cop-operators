@@ -1,0 +1,10 @@
+apiVersion: operators.coreos.com/v1alpha1
+kind: CatalogSource
+metadata:
+  name: redhat-cop-operators
+  namespace: openshift-operator-lifecycle-manager
+spec:
+  displayName: Red Hat Community of Practice Operators
+  publisher: Red Hat Community of Practice
+  image: quay.io/redhat-cop/redhat-cop-operators
+  sourceType: grpc
